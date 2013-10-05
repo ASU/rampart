@@ -127,7 +127,7 @@
             </snapshots>
             <id>open-saml</id>
             <name>OpenSAML</name>
-            <url>http://shibboleth.internet2.edu/downloads/maven2/</url>
+            <url>https://shibboleth.net/nexus/content/repositories/releases</url>
         </repository>
 
     </repositories>

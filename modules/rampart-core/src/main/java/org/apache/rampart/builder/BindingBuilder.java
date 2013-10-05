@@ -188,6 +188,10 @@ public abstract class BindingBuilder {
                 
                 utBuilder.setUserInfo(user, password);
                 
+                // wilken@asu.edu - eCollege SOAP service requires these two
+                utBuilder.addNonce();
+                utBuilder.addCreated();
+                
                 return utBuilder;
             } else {
                 //If there's no password then throw an exception

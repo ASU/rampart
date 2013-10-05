@@ -31,6 +31,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>rampart-core</artifactId>
+    <version>1.5.1-wilken-0.1</version>
     <packaging>jar</packaging>
     <name>Rampart - Core</name>
 
@@ -60,12 +61,12 @@
         <dependency>
             <groupId>org.apache.rampart</groupId>
             <artifactId>rampart-policy</artifactId>
-            <version>${pom.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.rampart</groupId>
             <artifactId>rampart-trust</artifactId>
-            <version>${pom.version}</version>
+            <version>${parent.version}</version>
         </dependency>
     </dependencies>
 
